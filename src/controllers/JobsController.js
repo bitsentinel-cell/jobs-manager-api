@@ -83,7 +83,12 @@ const updateJobs = async (req,res) =>{
 
 const deleteJobs = async (req,res) =>{
     try{
-        return await res.status().json({msg : "this is just a little change from home"})
+        const id = req.params.id
+        const deleteJob = await Job.findByIdAndDelete(id);
+        if(!deleteJob){
+            return res.status(StatusCodes.NOT_FOUND).json({msg : "cant delete the record"})
+        }
+        return res.status(StatusCodes.OK).json({msg : "record just deleted"})
     }catch (error) {
         return res.status(401).json({msg : "cant delete jobs!!!"})
     }
