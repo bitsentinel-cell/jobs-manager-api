@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6365d62a-7768-4814-8b77-dd15cb684ed9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/middlewares/authentication.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/AuthController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/JobsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/JobsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/dbconnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/dbconnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/UserController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Job.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Job.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/authRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/jobRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/jobRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/userRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/userRoutes.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,8 @@
       <updated>1701076469889</updated>
       <workItem from="1701076470885" duration="451000" />
       <workItem from="1701076952414" duration="22686000" />
-      <workItem from="1701161582824" duration="25792000" />
+      <workItem from="1701161582824" duration="26721000" />
+      <workItem from="1701246140472" duration="29390000" />
     </task>
     <servers />
   </component>

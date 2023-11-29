@@ -31,14 +31,8 @@ const UserSchema = new mongoose.Schema({
     password : {
         type : String,
         required : [true , "please choose wisely"],
-        minLength: 6,
-
+        trim: true,
     },
-})
-UserSchema.pre('save', async function(){
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password,salt)
-
 })
 
 
@@ -46,14 +40,9 @@ UserSchema.methods.createJWT = function (){
     return  jwt.sign({userId : this._id,name:this.username},process.env.JWT_SECRET, {expiresIn: '30m'});
 }
 
-
 UserSchema.methods.comparePassword = async function (pass){
-    return await bcrypt.compare(pass, this.password);
+    return await bcrypt.compare(pass, this.password)
 }
-
-
-
-
 
 const User = mongoose.model('User' , UserSchema);
 export default User;
