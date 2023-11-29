@@ -83,7 +83,7 @@ const updateJobs = async (req,res) =>{
 
 const deleteJobs = async (req,res) =>{
     try{
-        return await res.status().json({msg : "delete the jobs"})
+        return await res.status().json({msg : "this is just a little change from home"})
     }catch (error) {
         return res.status(401).json({msg : "cant delete jobs!!!"})
     }
