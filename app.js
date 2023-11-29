@@ -7,7 +7,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 import auth from "./src/middlewares/authentication.js";
 
-
 const app = express();
 const port = process.env.PORT | 8000;
 

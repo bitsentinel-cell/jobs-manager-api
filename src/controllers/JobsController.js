@@ -2,8 +2,6 @@
 import StatusCodes from "http-status-codes"
 import Job from "../models/Job.js";
 
-
-
 const getAllJobs = async (req,res) =>{
     try{
         // req.body.createdBy = req.user.userId
@@ -51,17 +49,14 @@ const createJobs = async (req,res) =>{
 
 
 const updateJobs = async (req,res) =>{
-
-
     try{
         const data = await Job.findById(req.params.id);
         const createdBy = data.createdBy.valueOf()
-        const requester = req.user.userId
+        const updater = req.user.userId
         const targetRecord = req.params.id
-
         const update = {company : req.body.company , position: req.body.position}
 
-         if(createdBy !== requester){
+         if(createdBy !== updater){
             return res.status(StatusCodes.UNAUTHORIZED).json({msg : 'this user can not update this record'})
         }
 
@@ -78,9 +73,7 @@ const updateJobs = async (req,res) =>{
     }catch (error) {
         return res.status(401).json({msg : "cant update jobs!!!"})
     }
-
 }
-
 const deleteJobs = async (req,res) =>{
     try{
         const id = req.params.id
