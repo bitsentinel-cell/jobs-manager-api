@@ -7,6 +7,12 @@
     <list default="true" id="6365d62a-7768-4814-8b77-dd15cb684ed9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/JobsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/JobsController.js" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/db/dbconnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/dbconnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/authentication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.js" afterDir="false" />
+>>>>>>> d72cd0eba01b3e60d4019bd7efa6a5175abf86c5
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/work space/jobs-manager-api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bitsentinelcell/Desktop/work space/jobs-manager-api&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,13 +65,30 @@
       <workItem from="1701076470885" duration="451000" />
       <workItem from="1701076952414" duration="22686000" />
       <workItem from="1701161582824" duration="26721000" />
+<<<<<<< HEAD
       <workItem from="1701246140472" duration="30121000" />
       <workItem from="1701332231616" duration="835000" />
+=======
+      <workItem from="1701246140472" duration="29390000" />
+      <workItem from="1701289013082" duration="3800000" />
+      <workItem from="1701293678401" duration="614000" />
+>>>>>>> d72cd0eba01b3e60d4019bd7efa6a5175abf86c5
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

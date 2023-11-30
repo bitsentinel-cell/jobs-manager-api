@@ -1,3 +1,4 @@
+'use strict';
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken';
@@ -9,12 +10,10 @@ const validateEmail = function(email) {
     return re.test(email)
 };
 const UserSchema = new mongoose.Schema({
-
     username : {
         type : String,
         required : [true , "username must be provided"],
         maxLength : 15,
-
     },
     email : {
         type : String,
