@@ -35,7 +35,9 @@ app.use(cors());
 app.use(xss())
 
 
-
+app.get('/' , (req,res)=>{
+    return res.send('hello from express job api manager')
+})
 
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/jobs' , auth , jobRoutes);
